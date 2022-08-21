@@ -16,5 +16,5 @@ type Player struct {
 type Rank struct {
 	ID    int
 	Rank  string
-	Stars []byte
+	Stars []byte // погоны
 }

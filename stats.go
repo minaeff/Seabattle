@@ -9,6 +9,8 @@ type BattleStats struct {
 	WinnerStats StatsByUser
 }
 
+// Stats by each player
+
 type StatsByUser struct {
 	User        Player
 	Count       int
