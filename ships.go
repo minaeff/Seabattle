@@ -10,7 +10,7 @@ type Ship struct {
 
 // Type of ship
 
-type сlassShip struct {
+type ClassShip struct {
 	ID          int
 	ClassName   string // линкор и т.д.
 	Length      int
