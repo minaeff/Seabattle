@@ -5,11 +5,17 @@ package main
 type GameArea struct {
 	Width  int
 	Height int
-	Cell   Cell
 }
 
-//cell coords
+// массив ячеек (игровое поле)
+type Matrix [][]Cell
+
+// ячейка
 type Cell struct {
-	X int
-	Y int
+	IsEmpty bool
+}
+
+// mark cell if player
+func (c Cell) MarkAsEmpty() {
+	c.IsEmpty = true
 }
